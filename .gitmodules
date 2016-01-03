@@ -1,0 +1,3 @@
+[submodule "Assets/EasyAdapters"]
+	path = Assets/EasyAdapters
+	url = https://github.com/marked-one/EasyAdapters.git
