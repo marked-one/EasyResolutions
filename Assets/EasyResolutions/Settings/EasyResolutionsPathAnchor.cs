@@ -4,9 +4,8 @@
 // Project page: https://github.com/marked-one/EasyResolutions
 // Unity Asset Store page: http://u3d.as/9aa
 
-// Since the file is not in the Editor folder, we 
-// use the other way to exclude its code from runtime.
 #if UNITY_EDITOR
+
 namespace EasyResolutions 
 {
 	using UnityEngine;
@@ -20,4 +19,5 @@ namespace EasyResolutions
 		public EasyResolutionsPathAnchor Real { get { return this; } }
 	}
 }
-#endif
+
+#endif // #if UNITY_EDITOR
